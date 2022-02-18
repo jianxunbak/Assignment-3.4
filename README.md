@@ -1,4 +1,4 @@
-# Insert Lesson Title
+# Java: Methods
 
 ## Dependencies
 
@@ -10,10 +10,20 @@ Refer to the following markdown file for the respective sections of the class:
 ## Lesson Objectives
 
 Learners will understand:
-- Insert the knowledge to be acquired
+- What are methods and their use cases.
+- The method signature.
+- The difference between parameters and arguments.
+> Parameter is variable in the declaration of function.
+> Argument is the actual value of this variable that gets passed to function.
+> From [this](https://stackoverflow.com/questions/156767/whats-the-difference-between-an-argument-and-a-parameter) SO Entry
+
+
 
 Learners will be able to:
-- Insert the skillset to be acquired
+- Implement static and non-static method and call them.
+- Implement methods with parameters and call it with arguments.
+- Implement methods with return values.
+- Implement methods overloading.a
 
 
 ## Lesson Plan
