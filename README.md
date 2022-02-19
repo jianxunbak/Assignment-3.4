@@ -23,7 +23,7 @@ Learners will be able to:
 - Implement static and non-static method and call them.
 - Implement methods with parameters and call it with arguments.
 - Implement methods with return values.
-- Implement methods overloading.a
+- Implement methods overloading.
 
 
 ## Lesson Plan
