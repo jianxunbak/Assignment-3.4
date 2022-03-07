@@ -2,7 +2,10 @@
 
 ### Brief
 
-Enter instruction for assignment here.
+1. Create a method called checkOddEven that gets an integer and prints "The number is odd/even" depending on the result.
+2. Create a method called capsCombine that gets two strings and converts both to uppercase and joins them with a space.
+3. Create a method called getAverage that gets an array of numbers and returns the average of the values in the array.
+  
 
 ### Submission 
 
