@@ -2,9 +2,8 @@
 
 ### How to use the lesson sample code
 
-There are two folders prepared for the lesson. 
-- [Instructor's folder](./lesson-sample-code/instructor-demo-code)
-- [Learners' folder](./lesson-sample-code/learners-practice-code)
+There is one folder prepared for the lesson. 
+- [Instructor's folder](./lesson-sample-code/)
 
 Instructor to use the code provided for demonstration during the I DO segment. Learners will use the java file provided in the respective folder for practice during the WE DO segment.
 
@@ -16,13 +15,13 @@ Instructor to use the code provided for demonstration during the I DO segment. L
 
 Create the main method and add a line printing "Hello World"
 ```java
-public static void main (String args[]){
-        //Java has two kinds of methods, predefined methods and user-defined methods.
-        //Predefined methods are methods that are built-in with Java. Example would be println()
-        System.out.println("Hello World");
-        
-        //User-defined methods are methods that developers create for the application
-    }
+public static void main (String args[]) {
+  //Java has two kinds of methods, predefined methods and user-defined methods.
+  //Predefined methods are methods that are built-in with Java. Example would be println()
+  System.out.println("Hello World");
+  
+  //User-defined methods are methods that developers create for the application
+}
 ```
 
 ---
@@ -32,22 +31,22 @@ public static void main (String args[]){
 Create a new method outside the main method with the following notes:
 ```java
 //Methods are blocks of code that runs when it is called.
-    //Methods are a way to reuse code by defining the code once, and being able to use it many times.
-    //A method needs to be defined in a class and has 3 main parts:
-    /*
-        1. Return type - determines what data type the method should return after running.
-        2. method name - the name of the method. this is important when the method needs to be called.
-        3. parameters - the inputs that the method needs in order to run. Note that the parameters can be optional.
-    */
-    /* Method Definition Syntax:
-        <Scope> <return type> <name>(<parameters>){
-            Code block to execute
-        }
-    */
-    public static int sum(int x, int y){
-        return x + y;
+//Methods are a way to reuse code by defining the code once, and being able to use it many times.
+//A method needs to be defined in a class and has 3 main parts:
+/*
+    1. Return type - determines what data type the method should return after running.
+    2. method name - the name of the method. this is important when the method needs to be called.
+    3. parameters - the inputs that the method needs in order to run. Note that the parameters can be optional.
+*/
+/* Method Definition Syntax:
+    <Scope> <return type> <name>(<parameters>){
+        Code block to execute
     }
-    //In this example, the method is called sum and it needs two integers to operate. It would then return the result of the operation x + y.
+*/
+public static int sum(int x, int y){
+    return x + y;
+}
+//In this example, the method is called sum and it needs two integers to operate. It would then return the result of the operation x + y.
 ```
 
 After creating this function, add this line in the main method

@@ -6,14 +6,13 @@ Technical knowledge is vast. Timebox yourself for 3 hours to work on the followi
 
 ### Video 
 
-- [Java methods](https://www.youtube.com/watch?v=ejI4iHiumrg)
+- [Introduction to Java Methods](https://www.youtube.com/watch?v=ejI4iHiumrg)
 
 ### Readings
 
-- [Method creation](https://www.geeksforgeeks.org/methods-in-java/)
-- [Method creation](https://www.w3schools.com/java/java_methods.asp)
-- [Method creation](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
-- [Method parameters and arguments](https://www.w3schools.com/java/java_methods_param.asp)
-)
+- [Java Documentation: Defining Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
+- [Methods in Java](https://www.geeksforgeeks.org/methods-in-java/)
+- [W3 Schools: Java Methods](https://www.w3schools.com/java/java_methods.asp)
+- [W3 Schools: Java Method Parameters](https://www.w3schools.com/java/java_methods_param.asp)
 
 
