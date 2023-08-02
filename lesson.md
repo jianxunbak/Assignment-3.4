@@ -112,7 +112,7 @@ import mypackage.House;
 public class MyApp {
   public static void main(String[] args) {
     System.out.println("My App");
-    House house = new House();
+    House myHouse = new House();
     System.out.println(myHouse);
   }
 }
@@ -122,7 +122,7 @@ Try removing the import statement and see what happens when you try to compile t
 
 ---
 
-## Part 2 - Predefined and User-defined Methods
+## Part 2: Predefined and User-defined Methods
 
 A method is a block of executable code which can be invoked. You can pass an optional set of arguments to the method. It may also optionally return data.
 
@@ -138,7 +138,7 @@ System.out.println("Hello World");
 
 User-defined methods are methods that developers create for the application.
 
-Let's add a method `addNumbers` into our `MyApp.java` file. This should be within the class but outside the main method.
+Let's add a method `addNumbers` into our `MyApp.java` file. This should be within the class but outside the `main` method.
 
 ```java
 public static void addNumbers (int a, int b) {
@@ -146,7 +146,7 @@ public static void addNumbers (int a, int b) {
 }
 ```
 
-Inside the main method, we can call our method by using the method name and passing in the arguments.
+Inside the `main` method, we can call our method by using the method name and passing in the arguments.
 
 ```java
 addNumbers(11, 77);
@@ -175,7 +175,7 @@ A method has the following structure:
 
 The **return type** is the data type of the value returned by the method. If the method does not return a value, the return type is `void`.
 
-Let's modify the addNumber to return an int.
+Let's modify the `addNumber` to return an `int`.
 
 ```java
 public static int addNumbers (int a, int b) {
@@ -244,7 +244,7 @@ public class Car {
 
 ```
 
-We can call these methods in the main method of the MyApp class.
+We can call these methods in the `main` method of the `MyApp` class.
 
 ```java
 public class MyApp {
@@ -321,7 +321,7 @@ private void checkSeatBelts() {
 }
 ```
 
-Now if you try to call these methods in the main method, you will get an error. This is correct, because we should not be able to call these methods directly but only from within the class.
+Now if you try to call these methods in the `main` method, you will get an error. This is correct, because we should not be able to call these methods directly but only from within the class.
 
 In this case, we want `startEngine()` to be the only method that can be called directly, which will in turn call these `private` methods.
 
