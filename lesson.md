@@ -408,7 +408,7 @@ System.out.printf("CEO Bonus: $%.2f\n", calcBonus(20000, 1.5));
 
 ### 👨‍💻 Activity 1 - Calculate Bonus
 
-Create another overloaded method for `bonusCalc` that takes in the salary as well as an `enum` `Position` with the following values: `STAFF`, `MANAGER`, `CEO`.
+Create another overloaded method for `calcBonus` that takes in the salary as well as an `enum` `Position` with the following values: `STAFF`, `MANAGER`, `CEO`.
 
 The bonuses should be calculated as follows:
 
@@ -431,7 +431,7 @@ This vending machine will have a `makePayment` method that takes in a `double` a
 It should also have another overloaded method that takes in an `enum` `EPayment`.
 
 ```java
-enum Epayment {
+enum EPayment {
   PAYNOW, GRABPAY, FAVEPAY
 }
 ```
